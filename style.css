@@ -1,0 +1,337 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+
+  --body-s: Outfit;
+  --heading-m: "Big Shoulders Display";
+  --body-s-size: 18px;
+  --body-m-size: 22px;
+  --heading-m-size: 60px;
+  --heading-xl-size: 96px;
+  --color-white: #fff;
+  --almost-black: #151515;
+  --dark-grey: #444;
+  --gold: #d5966c;
+}
+.desktop_home{
+  position: relative;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 2554px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-xl-size);
+  color: var(--color-white);
+  font-family: var(--heading-m);
+}
+
+.jakarta-art-gallery,
+.rectangle-parent {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
+.rectangle-icon {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 22%;
+  bottom: 0;
+  left: 35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.modern {
+  margin: 0;
+}
+.modern-art-gallery-container,
+.the-arts-in {
+  position: absolute;
+  top: calc(50% - 210px);
+  display: inline-block;
+}
+.modern-art-gallery-container {
+  width: 40%;
+  left: 12%;
+  line-height: 88px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--almost-black);
+}
+.the-arts-in {
+  width: 27%;
+  left: 72%;
+  font-size: var(--body-m-size);
+  line-height: 32px;
+  font-weight: 300;
+  font-family: var(--body-s);
+  color: var(--dark-grey);
+}
+.rectangle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--gold);
+}
+.our-location {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 15%;
+  letter-spacing: 3.64px;
+  font-weight: 800;
+}
+.rectangle-copy,
+.rectangle-group {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle-group {
+  width: 78%;
+  right: 21%;
+  overflow: hidden;
+}
+.rectangle-copy {
+  width: 100%;
+  right: 0;
+  background-color: var(--almost-black);
+}
+.path-2-icon {
+  position: absolute;
+  height: 34%;
+  width: 16%;
+  top: 32%;
+  right: 41%;
+  bottom: 32%;
+  left: 42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-parent,
+.group {
+  position: absolute;
+  height: 100%;
+  width: 21%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 78%;
+}
+.frame-parent {
+  height: 9%;
+  width: 20%;
+  top: 51%;
+  right: 7%;
+  bottom: 39%;
+  left: 72%;
+  font-size: 20px;
+}
+.modern-art-gallery-container1 {
+  position: absolute;
+  width: 114%;
+  top: calc(50% - 210px);
+  left: 36%;
+  line-height: 88px;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.jakarta-art-gallery {
+  height: 99%;
+  width: 35%;
+  top: 0.13%;
+  right: 64%;
+  bottom: 0;
+}
+.rectangle-parent {
+  top: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1275px;
+  height: 800px;
+}
+.wander-through-our,
+.your-day-at {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+}
+.your-day-at {
+  margin: 0;
+  top: calc(50% - 140px);
+  font-size: inherit;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: inherit;
+}
+.wander-through-our {
+  top: calc(50% + 12px);
+  font-size: var(--body-m-size);
+  line-height: 32px;
+  font-weight: 300;
+  font-family: var(--body-s);
+  color: var(--dark-grey);
+}
+.your-day-at-the-gall-parent {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 350px;
+  height: 280px;
+  overflow: hidden;
+}
+.rectangle1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 475px;
+  width: 635px;
+  height: 400px;
+  background-image: url(./public/rectangle1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rectangle-copy-2,
+.rectangle-copy-4 {
+  position: absolute;
+  top: 430px;
+  left: 0;
+  width: 635px;
+  height: 720px;
+  object-fit: cover;
+}
+.rectangle-copy-4 {
+  left: 665px;
+  width: 445px;
+  height: 313px;
+}
+.rectangle-copy-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--almost-black);
+  width: 445px;
+  height: 377px;
+}
+.come-be,
+.were-excited-to {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: inline-block;
+}
+.come-be {
+  top: calc(50% - 124px);
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.were-excited-to {
+  margin: 0;
+  top: calc(50% + 28px);
+  font-size: var(--body-m-size);
+  line-height: 32px;
+  font-weight: 300;
+  font-family: var(--body-s);
+}
+.come-be-inspired-parent {
+  position: absolute;
+  top: 65px;
+  left: 48px;
+  width: 350px;
+  height: 248px;
+  overflow: hidden;
+}
+.frame-group,
+.rectangle-copy-3-parent {
+  position: absolute;
+  top: 773px;
+  left: 665px;
+  width: 445px;
+  height: 377px;
+  color: var(--color-white);
+}
+.frame-group {
+  top: 980px;
+  left: 165px;
+  width: 1110px;
+  height: 1150px;
+  font-size: var(--heading-m-size);
+  color: var(--almost-black);
+}
+.mask1 {
+  position: absolute;
+  top: 2310px;
+  left: 0;
+  background-color: var(--almost-black);
+  width: 1440px;
+  height: 244px;
+}
+.the-modern-art {
+  position: absolute;
+  width: 58%;
+  top: calc(50% - 42px);
+  left: 41%;
+  line-height: 28px;
+  font-weight: 300;
+  display: inline-block;
+}
+.modernartgallery-icon {
+  position: relative;
+  width: 159px;
+  height: 58px;
+}
+.the-modern-art-galle-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 730px;
+  height: 84px;
+  overflow: hidden;
+}
+.frame-container,
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 1010px;
+  width: 100px;
+  height: 20px;
+}
+.frame-container {
+  top: 2390px;
+  left: 165px;
+  width: 1110px;
+  height: 84px;
+  font-size: var(--body-s-size);
+  font-family: var(--body-s);
+}
+.pointer-copy-12 {
+  position: relative;
+  width: 19px;
+  height: 20px;
+}
+
+
+.group{
+  background-color: #151515;
+}
